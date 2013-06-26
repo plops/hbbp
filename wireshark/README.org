@@ -1,0 +1,4 @@
+The Lua code in this directory implements a HBBP protocol dissector
+for wireshark.  Add the Lua code to /usr/share/wireshark/init.lua.  If
+you intend to run wireshark as root make sure to comment out the
+appropriate lines in this file to allow Lua to run.
